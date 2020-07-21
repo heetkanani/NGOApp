@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/grdnt" android:orientation="vertical">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="50dp" android:layout_width="wrap_content" android:layout_marginTop="10dp" android:text="Organization Name: : " android:textSize="25dp" android:textColor="#d9e5f3" android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/orgname"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#d9e5f3"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="50dp" android:layout_width="wrap_content" android:text="Email ID : " android:textSize="25dp" android:textColor="#d9e5f3" android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/orgemail"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="#d9e5f3"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Trust No.: "
+            android:textColor="#d9e5f3"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/orgtrustno"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:textColor="#d9e5f3"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"/>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="50dp" android:layout_width="wrap_content" android:layout_marginTop="10dp" android:text="Mobile No: " android:textSize="25dp" android:textColor="#d9e5f3" android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/orgnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:textColor="#d9e5f3"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="50dp" android:layout_width="wrap_content" android:layout_marginTop="10dp" android:text="Description: " android:textSize="25dp" android:textColor="#d9e5f3" android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/orgdes"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#d9e5f3"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:background="#009a9a" android:layout_marginTop="50dp" android:text="Change Description" android:textStyle="bold" android:id="@+id/orgbtn" android:layout_marginLeft="60dp" android:gravity="center"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="40dp" android:textColor="#ffffff" android:id="@+id/orgadddescrip" android:visibility="invisible" android:textColorHint="#ffffff" android:hint="Add Description"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:background="#009a9a" android:layout_marginTop="50dp" android:text="Upload Description" android:textStyle="bold" android:id="@+id/orgbtndes" android:layout_marginLeft="60dp" android:gravity="center" android:visibility="invisible"/>
+
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_nav_profile"
+        android:icon="@drawable/profile"
+        android:title="Profile"></item>
+
+    <item
+        android:id="@+id/main_nav_organization"
+        android:icon="@drawable/organizatn"
+        android:title="Organization"></item>
+
+
+    <item
+        android:id="@+id/main_nav_gov_progs"
+        android:icon="@drawable/govenmentorgan"
+        android:title="Government Programs"></item>
+
+    <item
+        android:id="@+id/main_nav_upcomming_events"
+        android:icon="@drawable/govenmentorgan"
+        android:title="Upcomming Events"></item>
+
+
+
+
+</menu>

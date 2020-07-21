@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/grdnt">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#4a5a71"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ver_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="aman"
+                android:textColor="#d9e5f3"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:id="@+id/ver_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="aman@gmail.com"
+                android:textColor="#d9e5f3"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/ver_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="9898989898"
+                android:textColor="#d9e5f3"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="25dp"
+                android:textColor="#d9e5f3"
+                android:text="1234656"
+                android:textStyle="bold"
+                android:id="@+id/ver_trustno"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description:"
+                android:textSize="25dp"
+                android:textColor="#d9e5f3"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/ver_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="abcdefghijklmnop"
+                android:textColor="#d9e5f3"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#009a9a"
+                android:id="@+id/ver_view_events"
+                android:text="View Events"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

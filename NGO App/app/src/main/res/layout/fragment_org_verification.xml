@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grdnt"
+    android:layout_marginTop="55dp"
+    tools:context=".OrgVerificationFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose file for proof"
+        android:id="@+id/org_verify_choose_file"
+        android:textSize="25sp"
+        android:textColor="#009a9a"/>
+    <Button
+        android:id="@+id/org_verify_proof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Upload Proof of Organization"
+        android:background="#009a9a"
+        android:layout_below="@+id/org_verify_choose_file"
+        android:textSize="20sp"
+        android:textColor="#d9e5f3"/>
+
+    <ImageView
+        android:id="@+id/org_verify_img_proof"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/org_verify_proof"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose file for passbook"
+        android:id="@+id/org_verify_choose_bank"
+        android:layout_below="@+id/org_verify_img_proof"
+        android:textSize="25sp"
+        android:textColor="#009a9a"/>
+
+    <Button
+        android:id="@+id/org_verify_bank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/org_verify_choose_bank"
+        android:text="Upload Bank Passbook"
+        android:background="#009a9a"
+        android:textSize="20sp"
+        android:textColor="#d9e5f3"/>
+    <ImageView
+        android:id="@+id/org_verify_img_bank"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/org_verify_bank"/>
+
+    <Button
+        android:id="@+id/org_verify_verification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/org_verify_img_bank"
+        android:text="Send data for verifiction"
+        android:background="#009a9a"
+        android:textSize="20sp"
+        android:textColor="#d9e5f3"/>
+</RelativeLayout>
